@@ -8,4 +8,4 @@ app.get("/login", (req,res) => {
     })
 })
 
-app.listen(3004,() => console.log('server is started'))
+app.listen(3004,() => console.log('server has been started'))
