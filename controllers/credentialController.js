@@ -32,7 +32,7 @@ const signIn = async (req,res) => {
     }
     else{
         res.status(401).send({
-            status: "credentials is not matching"
+            status: "credentials is not Matching"
         })
     }
 }
